@@ -87,7 +87,7 @@ async def on_message(message):
 
     try:
         await message.channel.send(
-            content=f"{message.author.mention} さんの予想画像",
+            content=f"{message.author.mention}",
             files=fixed_files,
         )
         try:
